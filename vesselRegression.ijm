@@ -150,6 +150,7 @@ for(i=0;i<list.length;i++){
 		
 		selectWindow("bits of interest");
 		if (increaseSizeOfMaskForVisibility!=0){
+			run("Select None");
 			run("Maximum...", "radius="+increaseSizeOfMaskForVisibility);
 		}
 		
